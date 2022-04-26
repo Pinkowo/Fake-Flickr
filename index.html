@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>flickr</title>
+  </head>
+  <body>
+    <a id="myAnchor" href="./album.html?110719028" target="_blank"></a>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+
+  <template id="t01" style="display:none;">
+    <svg width="0" height="0" style="position:absolute">
+      <symbol viewBox="0 0 204 45" id="icon-flickr_logo_dots"><g fill="none" fill-rule="evenodd">
+        <path fill="#FF0084" d="M35 33c5.523 0 10-4.477 10-10 0-5.522-4.477-10-10-10s-10 4.478-10 10c0 5.523 4.477 10 10 10"></path>
+        <path fill="#0063DC" d="M10 33c5.523 0 10-4.477 10-10 0-5.522-4.477-10-10-10S0 17.478 0 23c0 5.523 4.477 10 10 10"></path>
+        <path fill="#FFF" d="M134.725 13.31c3.121 0 5.896.53 8.264 1.691l-.754 7.67c-1.909-1.16-3.809-1.68-6.294-1.68-4.508 0-7.972
+        3.14-7.972 8.371 0 4.818 4.041 7.96 8.55 7.96 2.368 0 4.736-.522 6.47-1.452l.23 7.79c-2.598.87-5.718 1.34-8.494 1.34-9.933 
+        0-17.5-5.819-17.5-15.818 0-10.06 7.567-15.872 17.5-15.872zm65.756 0c1.21 0 2.483.172 3.52.352l-.519 8.719c-1.155-.352-2.309-.352-3.523-.352-4.852
+        0-7.57 3.552-7.57 9.483V44.3h-10.39V14.01h9.471v5.582h.112c1.793-3.841 4.394-6.281 8.899-6.281zM157.947.692v26.05h.112l8.666-12.73h11.377l-10.45
+        13.898 11.316 16.39H166.38l-8.32-15h-.112v15H147.55V.691h10.398zm-59.498 0V44.3H88.051V.691h10.4zm15.49 13.32v30.288h-10.392V14.01h10.392zM78.807 0c2.254 0 
+        3.988.35 5.314.58l-.637 7.21c-.864-.292-1.73-.47-3.293-.47-2.655 0-3.69 1.861-3.69 4.831v1.858h7.391v7.32H76.5V44.3H66.1V21.33h-6.12v-7.32h6.296v-1.858C66.276 
+        3.142 70.491 0 78.807 0zm35.133 1.39v7.68h-10.392V1.39h10.392z"></path></g>
+      </symbol>
+    </svg>
+    <nav class="navbar navbar-expand-lg bg-my1 hz-52 nav1 position-sticky top-z-0 z2">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <svg class="icon icon-flickr_logo_dots" id="yui_3_16_0_1_1646718056512_1341">
+            <use xlink:href="#icon-flickr_logo_dots" id="yui_3_16_0_1_1646718056512_1347"></use>
+          </svg>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <i class="fa fa-bars text-white" aria-hidden="true"></i>
+          </span>
+        </button>
+      
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item nav-item-1 dropdown me-3 ms-3">
+              <a class="nav-link fc-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                發掘
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">最新相片</a>
+                <a class="dropdown-item" href="#">熱門相片</a>
+                <a class="dropdown-item" href="#">活動</a>
+                <a class="dropdown-item" href="#">公眾相簿計畫</a>
+                <a class="dropdown-item" href="#">Flickr博覽館</a>
+                <a class="dropdown-item" href="#">世界地圖</a>
+                <a class="dropdown-item" href="#">相機搜尋器</a>
+                <a class="dropdown-item" href="#">Flickr Blog</a>
+              </div>
+            </li>
+            <li class="nav-item nav-item-1 dropdown me-3">
+              <a class="nav-link fc-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                印刷品
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">印刷品和掛牆藝術</a>
+                <a class="dropdown-item" href="#">實體相簿</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fc-white" href="#">購買Pro</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <div class="group position-relative pe-3 mt-2">
+              <i class="fa fa-search position-absolute mt-2 mx-2" aria-hidden="true"></i>
+              <input class="form-control bg-my2 fz-14 rounded-1 me-2 ps-4" type="search" placeholder="相片、人物或群組" aria-label="Search">
+            </div>
+            <button type="button" class="btn fc-white"><i class="fa fa-cloud-upload fz-28 mt-1" aria-hidden="true"></i></button>
+            <button type="button" class="btn fc-white wz-85 me-2">登入</button>
+            <button type="button" class="btn btn-primary wz-85 hz-35 mt-2 fw-bold">註冊</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hz-250">
+      <div class="container h-100 pb-3">
+        <div class="row h-100 d-flex align-items-end text-white">
+          <div class="col-2 col-lg-1">
+            <img src="https://randomuser.me/api/portraits/women/18.jpg" alt="" class="wz-100 rounded-circle">
+          </div>
+          <div class="col-8 col-lg-8 ps-1 ps-lg-4 ps-sm-3">
+            <div class="top d-flex mb-2 hz-35">
+              <div class="name ms-3 fz-28">Pink Lee</div>
+              <div class="btn btn-light btn-md ms-3">追蹤</div>
+              <div class="btn btn-outline-light btn-md ms-2">···</div>
+            </div>
+            <div class="bottom d-flex mb-1">
+              <div class="bm1 ms-3">
+                <i class="fa fa-gift ms-1" aria-hidden="true"></i>
+                送贈 Pro
+              </div>
+              <div class="bm2 ms-3">1.6K個追蹤者</div>
+              <div class="bm3 ms-3">正在追蹤 52 個人</div>
+            </div>
+          </div>
+          <div class="col-2 col-lg-3 d-flex justify-content-around">
+            <div class="num1">14,877 張相片</div>
+            <div class="num2">已加入 2022</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <aside class="nav2 position-sticky top-z-50 bg-light z1 hz-52">
+      <div class="container pt-2">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">關於</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">所有相片</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark active" aria-current="page" href="#">相簿</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark"  href="#">最愛</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark"  href="#">博覽館</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark"  href="#">群組</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </template>
+
+  <template id="t03" style="display:none;">
+    <footer class="bg-my1">
+      <div class="container">
+        <ul class="nav footer1 d-flex justify-content-between">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">關於</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">工作機會</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">開發人員</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">指南</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">服務中心</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">檢舉濫用</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">說明討論區</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              繁體中文
+            </a>
+            <ul class="dropdown-menu"  aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Deutsch</a></li>
+              <li><a class="dropdown-item" href="#">Español</a></li>
+              <li><a class="dropdown-item" href="#">Français</a></li>
+              <li><a class="dropdown-item" href="#">한글</a>
+              <li><a class="dropdown-item" href="#">Italiano</a></li>
+              <li><a class="dropdown-item" href="#">Português</a></li>
+              <li><a class="dropdown-item" href="#">Tiếng Việt</a></li>
+              <li><a class="dropdown-item" href="#">Bahasa Indonesia</a></li>
+            </ul>
+          </li>
+        </ul>
+        <hr class="m-0 ms-3 me-3 bg-secondary" size="0.1">
+        <ul class="nav footer2">
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">私隱政策</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">服務條款</a>
+          </li>
+          <li class="nav-item me-auto">
+            <a class="nav-link text-secondary" href="#">Cookies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </template>
+</html>
